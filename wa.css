@@ -344,7 +344,7 @@ footer{
     width: 100%;
     z-index: -1;
     background-color: gainsboro;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Handlee', cursive;
