@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("img/evie-s-Sw7f58YJbc0-unsplash.jpg");
+    background-image: url("evie-s-Sw7f58YJbc0-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -42,7 +42,7 @@ body p{
 
 
 header{
-    background-image: url('img/head00.png');
+    background-image: url('head00.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ h1{
     text-align: center;
     margin:30px;
     padding: 10px;
-    background-image: url('img/help0.jpeg');
+    background-image: url('help0.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 } 
@@ -265,28 +265,28 @@ h2{
     height: 500px;
 }
 .gallery1{
-    background-image: url('img/service.jpg');
+    background-image: url('service.jpg');
     background-position: center;
     background-size: cover;
     grid-area: gallery1;
     border: 10px solid white;
 }
 .gallery2{
-    background-image: url('img/about0.jpeg');
+    background-image: url('about0.jpeg');
     background-position: center;
     background-size: cover;
     grid-area: gallery2;
     border: 10px solid white;
 }
 .gallery3{
-    background-image: url('img/help2.jpeg');
+    background-image: url('help2.jpeg');
     background-size: cover;
     background-position: center;
     grid-area: gallery3;
     border: 10px solid white;
 }
 .gallery4{
-    background-image: url('img/example4.jpeg');
+    background-image: url('example4.jpeg');
     background-size: cover;
     background-position: center;
     grid-area: gallery4;
@@ -294,7 +294,7 @@ h2{
 }
 .section-footer{
     margin: 30px;
-    background-image: url('img/help1.jpeg');
+    background-image: url('help1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -377,7 +377,7 @@ footer{
     color:black;
 }
 .logo-footer{
-    background-image: url('img/logo.png');
+    background-image: url('logo.png');
     background-size: cover;
     height: 200px;
     width: 200px;
@@ -486,7 +486,7 @@ font-family:'Gideon Roman';
 #header-inscrip{
     background: none;
     height: max-content;
-    background-image: url("img/kelly-sikkema-qRiNLfEmXaU-unsplash.jpg");
+    background-image: url("kelly-sikkema-qRiNLfEmXaU-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -496,7 +496,7 @@ font-family:'Gideon Roman';
     text-shadow: 0 0 6px peru, 0 0 8px gainsboro;
 }
 .gall1{
-    background-image: url('img/sigmund-TlFw-WoI8_w-unsplash.jpg');
+    background-image: url('sigmund-TlFw-WoI8_w-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -527,7 +527,7 @@ font-family:'Gideon Roman';
     height: 125px;
 }
 .gall4{
-    background-image: url('img/ana-rivarola-Y46ySeB6n8A-unsplash.jpg');
+    background-image: url('ana-rivarola-Y46ySeB6n8A-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     grid-area: gall4;
@@ -627,7 +627,7 @@ font-family:'Gideon Roman';
     box-sizing: border-box;
     width: 100%;
     text-align: center;
-    background-image: url("img/help.webp");
+    background-image: url("help.webp");
     background-size: cover;
     padding: 20px;
     margin-top: 30px;
@@ -636,7 +636,7 @@ font-family:'Gideon Roman';
 .about-img1{
     height: 450px;
     width: 800px;
-    background-image: url("img/arpad-czapp-xBQu9PxHoFI-unsplash.jpg");
+    background-image: url("arpad-czapp-xBQu9PxHoFI-unsplash.jpg");
     background-size: cover;
     z-index: 0;
     margin-top: -20px;
@@ -644,7 +644,7 @@ font-family:'Gideon Roman';
 .about-img2{
     height: 450px;
     width: 1000px;
-    background-image: url("img/robbin.jpg");
+    background-image: url("robbin.jpg");
     background-size: cover;
     z-index: 1;
     margin-bottom: -30px;
@@ -672,7 +672,7 @@ font-family:'Gideon Roman';
     box-sizing: border-box;
     width: 100%;
     text-align: center;
-    background-image: url("img/head.webp");
+    background-image: url("head.webp");
     background-size: cover;
     padding: 80px;
     margin-left: auto;
@@ -798,7 +798,7 @@ font-family: 'satisfy';
 text-align: center;
 }
 #service-main{
-    background-image: url("img/pexels-kasia-palitava-10335133.jpg");
+    background-image: url("pexels-kasia-palitava-10335133.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
