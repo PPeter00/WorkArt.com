@@ -27,8 +27,8 @@ body p{
     flex-direction: column;
 }
 .map{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: auto;
 }
 #content-bb{
     list-style: none;
