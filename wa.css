@@ -339,7 +339,7 @@ h2{
     border-radius:1 5px;
 }
 footer{
-    height: min-content;
+    height: auto;
     padding: 20px;
     width: 100%;
     z-index: -1;
