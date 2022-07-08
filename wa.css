@@ -349,15 +349,15 @@ footer{
     'nav-footer nav-footer nav-footer'
     'frame frame frame'
     ' foll-foot foll-foot foll-foot ';
-    position: relative;
     font-family: 'Handlee', cursive;
+    flex-wrap: wrap;
 }
 .nav-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     grid-area: nav-footer;
-    height: 220px;
+    height: auto;
 }
 .nav-footer hr{
     border: 2px solid silver;
@@ -393,11 +393,13 @@ footer{
     border: thick double silver;
     grid-area: frame;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: 'Handlee', cursive;
-    height: max-content;
+    height: auto;
     border-radius: 1%;
+    flex-wrap: wrap;
 }
 .contact-footer p{
  font-weight: 900;
@@ -409,23 +411,11 @@ footer{
     text-align: center;
     align-self: center;
 }
-.follow-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style: none;
-
-}
-.follow-footer ul li{
-    margin: 5px;
-}
 .follow-footer{
   grid-area: foll-foot;
-  display:flex;
-  flex-direction: row;
+  display:block;
   justify-content: center;
-  align-items: baseline;
-  margin-top: 40px;
+  margin: 20px;
   text-align: center;
 
 }
