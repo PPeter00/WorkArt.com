@@ -29,8 +29,7 @@ body p{
 .map{
     height: 300px;
     width: auto;
-    margin: auto;
-    
+    margin: 10px auto;  
 }
 #content-bb{
     list-style: none;
@@ -1042,7 +1041,7 @@ text-align: center;
        
         }
 }
-@media only  (min-width: 700px) {
+@media only(min-width: 700px) {
     #content-bb{
         margin-left: 90%;
     }
