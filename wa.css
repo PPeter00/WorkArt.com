@@ -894,7 +894,7 @@ text-align: center;
     }
     
 }
-@media  (min-width: 900px){
+@media  only (min-width: 900px){
     #content-bb{
         margin-left: 94%;
     }
