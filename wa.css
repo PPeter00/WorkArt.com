@@ -311,7 +311,7 @@ h2{
     font-family: 'Handlee', cursive;
     background-color: rgba(0,0,0,0.3);
     width: 40%;
-    height: 200px;
+    height: max-content;
     margin: auto;
 }
 
@@ -341,14 +341,11 @@ h2{
 footer{
     height: max-content;
     padding: 20px;
+    width: 100%;
+    z-index: -1;
     background-color: gainsboro;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    'nav-footer nav-footer nav-footer'
-    'frame frame frame'
-    ' foll-foot foll-foot foll-foot ';
+    display: flex;
+    flex-direction: column;
     font-family: 'Handlee', cursive;
     flex-wrap: wrap;
 }
@@ -391,15 +388,16 @@ footer{
 }
 .frame{
     border: thick double silver;
-    grid-area: frame;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: 'Handlee', cursive;
     height: auto;
+    width: auto;
     border-radius: 1%;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 .contact-footer p{
  font-weight: 900;
@@ -794,6 +792,11 @@ text-align: center;
 }
 .hr{
     display: none;
+}  
+   
+
+
+
 @media only (min-width: 1300px){
     .gallery-service{
         display: grid;
