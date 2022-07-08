@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
-    height:100%;
     background-image: url("evie-s-Sw7f58YJbc0-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -802,6 +800,8 @@ text-align: center;
     font-family: 'Fredericka the Great';
     padding-bottom: 20px;
 }
+.hr{
+    display: none;
 @media only (min-width: 1300px){
     .gallery-service{
         display: grid;
@@ -1107,6 +1107,7 @@ text-align: center;
         height: 150px;
     }
     .frame{
+        display: block;
         height: 180px;
         margin-top: 10px;
         padding: 0%;
@@ -1125,7 +1126,7 @@ text-align: center;
         padding: 10px;
         height: 350px;
         grid-template-columns: 1fr ;
-        grid-template-rows: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-template-areas: 
         'nav-footer'
         ' frame'
@@ -1133,16 +1134,8 @@ text-align: center;
         justify-content: space-around;
         align-items: center;
     }
-    .follow-footer{
-        margin-top: -70px;
-    }
     .contact-footer p{
         padding: 2px;
-    }
-    .hr{
-        margin-left: -20px;
-        padding-left: -20;
-        width: 20px;
     }
     .container-service .text{
         font-size: 1.5rem;
@@ -1169,6 +1162,9 @@ text-align: center;
    .logo{
        margin-left: 0px;
    }
+     #content-bb{
+        margin-left: 80%;
+    }
    .inscrip-art1 p, .inscrip-art2 p, .inscrip-art3 p, .inscrip-art4 p{
     text-align: center;
     font-size: 16px !important;
@@ -1285,9 +1281,7 @@ text-align: center;
         }
 }
 @media only (min-width: 430px){
-    .hr{
-        display: none;
-    }
+
     .logo-footer{
         width: 80px;
         height: 80px;
