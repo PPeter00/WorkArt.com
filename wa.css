@@ -29,6 +29,8 @@ body p{
 .map{
     height: 300px;
     width: auto;
+    margin: auto;
+    
 }
 #content-bb{
     list-style: none;
