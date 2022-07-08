@@ -153,6 +153,7 @@ h1{
     background-color:gainsboro;
     row-gap: 30px;
     column-gap: 30px;
+    flex-wrap: wrap;
 }
 .canvas-top{
     display: flex;
@@ -164,6 +165,7 @@ h1{
     padding: 20px;
     row-gap: 30px;
     column-gap: 30px;
+    flex-wrap: wrap;
 }
 .canvas-top div, .section-top a{
     border: 2px solid black;
