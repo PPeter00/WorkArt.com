@@ -25,7 +25,10 @@ body p{
     margin-left: 95%;
     display: inline-block;
     flex-direction: column;
-
+}
+.map{
+    height: 250px;
+    width: 250px;
 }
 #content-bb{
     list-style: none;
@@ -354,6 +357,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     height: min-content;
+    margin: 10px;
 }
 .nav-footer hr{
     border: 2px solid silver;
@@ -396,6 +400,8 @@ footer{
     border-radius: 1%;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
 }
 .contact-footer p{
  font-weight: 900;
@@ -785,10 +791,7 @@ text-align: center;
 .serviceme h2, .serviceme p{
     font-family: 'Fredericka the Great';
     padding-bottom: 20px;
-}
-.hr{
-    display: none;
-}  
+} 
    
 
 
@@ -1047,7 +1050,6 @@ text-align: center;
         grid-template-areas: 
         'gallery1 gallery2'
         'gallery3 gallery4';  
-        margin: 0;
     }
     
     .about{
@@ -1066,11 +1068,6 @@ text-align: center;
     .logo-footer{
         width: 170px;
         height: 150px;
-    }
-    .frame{
-        height: mim-content;
-        padding: 0%;
-
     }
     .follow-footer{
         font-size: 14px;
@@ -1107,6 +1104,7 @@ text-align: center;
    }
      #content-bb{
         margin-left: 80%;
+        margin-right: 10px;
     }
    .inscrip-art1 p, .inscrip-art2 p, .inscrip-art3 p, .inscrip-art4 p{
     text-align: center;
@@ -1206,7 +1204,6 @@ text-align: center;
     .logo-footer{
         width: 100px;
         height: 100px;
-        display: block;
     }
     .gallery{
         row-gap: 7px;
