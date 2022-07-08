@@ -339,13 +339,14 @@ h2{
     border-radius:1 5px;
 }
 footer{
-    height: auto;
+    max-height: 500px;
     padding: 20px;
     width: 100%;
     z-index: -1;
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: 'Handlee', cursive;
     flex-wrap: wrap;
 }
