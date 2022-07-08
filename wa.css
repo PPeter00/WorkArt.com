@@ -37,7 +37,7 @@ body p{
     border-radius: 50%;
 }
 #content-bb li a img{
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(0.6);
 }
 
 
