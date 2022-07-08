@@ -340,13 +340,12 @@ h2{
 }
 footer{
     min-height: auto;
-    padding: 20px;
+    align-content: strech;
     width: 100%;
     z-index: -1;
-    background-color: gainsboro;
-    display: block;
+    display:flex !important;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Handlee', cursive;
     flex-wrap: wrap;
 }
