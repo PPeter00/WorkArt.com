@@ -188,7 +188,7 @@ h1{
 .section-top hr, .about hr, .canvas-top hr{
     color: black;
     background-color: black;
-    width: 150px;
+    width: 70%;
     height: 3px;
     margin: 10px;
 }
@@ -339,7 +339,7 @@ h2{
     border-radius:1 5px;
 }
 footer{
-    max-height: 300px;
+    min-height: auto;
     padding: 20px;
     width: 100%;
     z-index: -1;
@@ -354,14 +354,12 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    grid-area: nav-footer;
-    height: auto;
+    height: min-content;
 }
 .nav-footer hr{
     border: 2px solid silver;
     width: 80%;
     align-self: center;
-    margin: 10px;
 }
 .nav-1, .nav-2{
  display:flex;
@@ -381,7 +379,7 @@ footer{
     background-size: cover;
     height: 200px;
     width: 200px;
-    margin: 20px;
+    margin: auto;
 }
 .nav-1 a:hover, .nav-2 a:hover{
      color: white;
@@ -413,7 +411,6 @@ footer{
   grid-area: foll-foot;
   display:block;
   justify-content: center;
-  margin: 20px;
   text-align: center;
 
 }
@@ -894,7 +891,7 @@ text-align: center;
     }
     
 }
-@media only (min-width: 900px){
+@media  (min-width: 900px){
     #content-bb{
         margin-left: 94%;
     }
@@ -951,7 +948,7 @@ text-align: center;
     .show + a, ul{
      display: none;
     }
-   [id^=btn]:checked + ul{
+  [id^=btn]:checked + ul{
     display: block;
     }
     nav ul li{
@@ -972,7 +969,6 @@ text-align: center;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 20px;
-   
         width: max-content;
         box-sizing: border-box ;
     }
@@ -986,7 +982,7 @@ text-align: center;
         font-size: 2rem;
        }
     .contact-me{
-        padding: 40px;
+        padding: 30px;
     }
     .contactme{
         width:95%;
@@ -1073,37 +1069,18 @@ text-align: center;
         height: 150px;
     }
     .frame{
-        display: block;
-        height: max-content;
-        margin-top: 10px;
+        height: mim-content;
         padding: 0%;
-        margin-bottom: 20px;
 
     }
     .follow-footer{
         font-size: 14px;
     }
     .nav-footer{
-        height: 60px;
-        margin:10px;
+        height:min-content;
         padding: 5px;
     }
-    footer{
-        padding: 10px;
-        height: max-content;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas: 
-        'nav-footer'
-        ' frame'
-        'foll-foot';
-        justify-content: space-around;
-        align-items: center;
-        text-align: center;
-    }
-    .contact-footer p{
-        padding: 2px;
-    }
+    
     .container-service .text{
         font-size: 1.5rem;
        
@@ -1195,6 +1172,9 @@ text-align: center;
     .about-content{
         width: 95%;
     }
+    #content-bb{
+        margin-left: 70%;
+    }
     .inscrip-art1 p, .inscrip-art2 p, .inscrip-art3 p, .inscrip-art4 p{
         text-align: center;
         }
@@ -1220,7 +1200,6 @@ text-align: center;
 @media only (min-width: 495px){
     .container-service .text{
         font-size: 4rem;
-       
         }
 }
 @media only (min-width: 430px){
