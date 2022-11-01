@@ -45,7 +45,7 @@ header{
     background-image: url("hh.jpg");
     background-repeat: no-repeat;
     object-fit:cover;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     height: min-content;
     z-index:-1;
