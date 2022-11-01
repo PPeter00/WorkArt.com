@@ -44,7 +44,7 @@ body p{
 header{
     background-image: url("hh.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    object-fit:cover;
     background-size: cover;
     height: 470px;
     z-index:-1;
