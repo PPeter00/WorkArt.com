@@ -47,7 +47,7 @@ header{
     object-fit:cover;
     background-position: center center;
     background-size: cover;
-    height: max-content;
+    height:470px;
     z-index:-1;
 }
 nav{
