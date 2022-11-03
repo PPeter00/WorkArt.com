@@ -49,6 +49,7 @@ header{
     background-size: cover;
     height:470px;
     z-index:-1;
+    color: bisque;
 }
 nav{
   background-color: gainsboro;
