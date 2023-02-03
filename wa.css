@@ -40,7 +40,7 @@ body p{
     filter: brightness(0) invert(0.6);
 }
 
-
+/*
 header{
     background-image: url("colaj.png");
     background-repeat: no-repeat;
@@ -49,6 +49,18 @@ header{
     background-size: cover;
     height:470px;
     z-index:-1;   
+}
+*/
+header{
+    background-image: none;
+    width: 100%;
+    height:max-content;
+    margin:0;
+    padding: 0;
+}
+.header-header-img{
+    width: 100%;
+    height: auto;
 }
 nav{
   background-color: gainsboro;
