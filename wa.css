@@ -137,14 +137,12 @@ h1{
     display: flex;
     justify-content: space-around;
     text-align: center;
-    align-items: center;
+    align-items: bottom;
     padding-top: 80px;
     color:#242424;
     font-family: 'satisfy', cursive;
     font-size: 60px;
-    color: cadetblue;
-     text-shadow: 2px 2px 0px aliceblue,
-               5px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
 }
 .section-top{
     display: flex;
